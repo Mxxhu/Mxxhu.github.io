@@ -5,24 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-    <link rel="stylesheet" href="./pc.css">
-    
-<body>
+    <link rel="stylesheet" href="./style.css">  
+
+    <style>
+
+      .flex {
+        display: flex;
+      }
+
+      .flex-wrap {
+        flex-wrap: wrap;
+      }
+
+      .flex-aligh-items {
+        align-items: center;
+      }
+
+      .flex-justify-content {
+        justify-content: center;
+      }
+
+      .flex-item-shrink{
+        flex-shrink: 0;
+      }
+
+    </style>
+
+  </head>
+  <body>
  
 <div class="search-box">
   <input type="text" placeholder="Search here...">
 </div>
 
-  <div class="nav-container">
+  <div class="nav-container flex flex-aligh-items flex-justify-content lex-wrap">
     <div class="wrapper">
       <nav>
-        <ul class="nav-logo">
+        <ul class="nav-logo lex-item-shrink">
           <li>
             <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
             </li>
         </ul>
 
-        <ul class="nav-items">
+        <ul class="nav-items lex-item-shrink">
 
           <li>
             <a href="#">Home</a>
@@ -49,14 +74,14 @@
             </li>
         </ul>
 
-        <ul class="nav-items-search">
+        <ul class="nav-items-search lex-item-shrink">
           <li>
             <a class="search-container" href="#">
               <img class="search-btn" src="img/search.png" alt="">
               <img class="close-search-btn" src="" alt="">
             </a>
           </li>
-          <ul class="nav-items-menu">
+          <ul class="nav-items-menu lex-item-shrink">
             <li>
               <a class="search-container" href="#">
                 <img class="search-btn" src="img/menu.png" alt="">
