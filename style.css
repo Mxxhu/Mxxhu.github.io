@@ -17,9 +17,11 @@
     background: #000000;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
     height: 45px;
+    width: 100%;
     z-index: 500;
-    position: relative;
-    opacity: 80%;
+    opacity: 85%;
+    position: fixed;
+    top: 0;
   }
   
   .wrapper {
@@ -124,7 +126,6 @@
 }
   
   header h1 {
-
     
     font-family: "Roboto";
     font-style: normal;
@@ -195,36 +196,97 @@
   }
   
   /* Sfondi */
-  
-  .sfondo01 {
+
+  .sfondi-home {
+    
+  }
+
+  .sfondo01-01 {
     position: absolute;
     width: 1920px;
     height: 656px;
-    left: -10px;
+    left: -19px;
     top: 149px;
-  }
     
-  .sfondo02 {
-    position: absolute;
-    width: 1104px;
-    height: 1062px;
-    left: 380px;
-    top: 973px;
+    background: #E6EDF3;
+    mix-blend-mode: normal;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
   }
   
-  .sfondo03 {
+  .earth01 {
+    position: relative;
+    width: 560px;
+    height: 566px;
+    left: 0px;
+    top: -670px;
+    filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.25));
+  }
+  
+  .sfondo02-01 {
+    position: absolute;
+    width: 536px;
+    height: 507px;
+    left: 958px;
+    top: 1528px; 
+    background: #D0D6EB;
+    border-radius: 20px;
+  }
+  
+  .sfondo02-02 {
+    position: absolute;
+    width: 542px;
+    height: 507px;
+    left: 390px;
+    top: 1528px;
+    background: #DBE1F8;
+    border-radius: 20px;
+  }
+  
+  .sfondo02-03 {
     position: absolute;
     width: 1104px;
-    height: 1062px;
-    left: 380px;
+    height: 528px;
+    left: 390px;
+    top: 973px;
+    background: #E4E8F7;
+    border-radius: 20px;
+  }
+  
+  .sfondo03-01 {
+    position: absolute;
+    width: 536px;
+    height: 507px;
+    left: 958px;
+    top: 2689px;
+    background: #E8DCCC;
+    border-radius: 20px;
+  }
+  
+  .sfondo03-02 {
+    position: absolute;
+    width: 542px;
+    height: 507px;
+    left: 390px;
+    top: 2689px;
+    background: #F8EAD6;
+    border-radius: 20px;
+  }
+  
+  .sfondo03-03 {
+    position: absolute;
+    width: 1104px;
+    height: 528px;
+    left: 390px;
     top: 2134px;
+    background: #F7EFE4;
+    border-radius: 20px;
   }
   
   .sfondo-down {
     position: absolute;
     width: 1920px;
     height: 643px;
-    left: -10px;
+    left: -19px;
     top: 3357px;
     background: #88848F;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
