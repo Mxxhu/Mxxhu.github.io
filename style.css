@@ -43,7 +43,7 @@
   
   .nav-logo li {
     list-style: none;
-    transform: translateX(-50px);
+    transform: translateX(-18px);
     height: 26px;
   }
   
@@ -60,8 +60,8 @@
   
   .nav-items li {
     list-style: none;
-    margin-right: 118px;
-    transform: translateX(20px);
+    margin-right: 100px;
+    transform: translateX(28px);
   }
   
   .nav-items li:nth-last-of-type(1) {
@@ -81,7 +81,7 @@
   
   .nav-items-search li {
     list-style: none;
-    transform: translateX(85px);
+    transform: translateX(70px);
     height: 26px;
   }
   
@@ -126,21 +126,25 @@
 }
   
   header h1 {
-    
+    position: absolute;
+    top: 336px;
+    transform: translateX(-380px);
+
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
     line-height: 112px; 
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.2em;
     color: #69C0B6;
-    z-index: 1;
+    z-index: 999;
   }
   
   header h2 {
+    position: absolute;
+    top: 449px;
+    transform: translateX(-110px);
 
     
     font-family: "Roboto";
@@ -149,14 +153,14 @@
     font-size: 72px;
     line-height: 120%; 
     display: flex;
-    align-items: center;
-    text-align: center;
     color: #69C0B6;
-    z-index: 1;
+    z-index: 999;
   }
   
   header h3 {
-
+    position: absolute;
+    top: 562px;
+    transform: translateX(-182px);
     
     font-family: "Roboto";
     font-style: normal;
@@ -164,19 +168,15 @@
     font-size: 36px;
     line-height: 250%;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.6em;
     color: #7C9EEE;
-    z-index: 1;
+    z-index: 999;
   }
   
   header h4 {
-    position: relative;
-    width: 550px;
-    height: 56px;
-    left: 138px;
-    top: 315px;
+    position: absolute;
+    top: 886px;
+    transform: translateX(-250px);
     
     font-family: "Roboto";
     font-style: normal;
@@ -184,8 +184,6 @@
     font-size: 48px;
     line-height: 56px;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.25em;
     color: #000000;
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
@@ -196,10 +194,6 @@
   }
   
   /* Sfondi */
-
-  .sfondi-home {
-    
-  }
 
   .sfondo01-01 {
     position: absolute;
@@ -214,11 +208,9 @@
   }
   
   .earth01 {
-    position: relative;
-    width: 560px;
-    height: 566px;
-    left: 0px;
-    top: -670px;
+    position: absolute;
+    top: 182px;
+    transform: translateX(-300px);
     filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.25));
   }
   
