@@ -128,12 +128,12 @@
   header h1 {
     position: absolute;
     top: 336px;
-    transform: translateX(-380px);
+    transform: translateX(-330px);
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
-    font-size: 96px;
+    font-size: 85px;
     line-height: 112px; 
     display: flex;
     letter-spacing: 0.2em;
