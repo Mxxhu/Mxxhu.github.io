@@ -128,12 +128,12 @@
   header h1 {
     position: absolute;
     top: 336px;
-    transform: translateX(-338px);
+    transform: translateX(-395px);
 
     font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
-    font-size: 84px;
+    font-size: 96px;
     line-height: 112px; 
     display: flex;
     letter-spacing: 0.2em;
@@ -310,14 +310,16 @@
   .nav-container {
     background: #000000;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
-    height: 55px;
+    height: 70px;
+    width: 100%;
     z-index: 500;
-    position: relative;
-    opacity: 80%;
+    opacity: 85%;
+    position: fixed;
+    top: 0;
   }
   
   .wrapper {
-    max-width: 800;
+    max-width: 1200;
     margin: 0 auto;
   }
   
@@ -325,7 +327,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 55px;
   }
   
   nav ul {
@@ -336,8 +337,8 @@
   
   .nav-logo li {
     list-style: none;
-    height: 28px;
     transform: translateX(450px);
+    height: 26px;
   }
   
   .nav-logo li:nth-last-of-type(1) {
@@ -354,7 +355,7 @@
   .nav-items li {
     list-style: none;
     margin-right: 100px;
-    transform: translateX(40px);
+    transform: translateX(28px);
   }
   
   .nav-items li:nth-last-of-type(1) {
@@ -366,18 +367,17 @@
     font-family: "Roboto";
     font-weight: lighter;
     font-size: 14px;
-    line-height: 22.5px;
     text-decoration: none;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-    opacity: 0%;
+    opacity: 0;
   }
   
   /* Search */
   
   .nav-items-search li {
     list-style: none;
-    transform: translateX(-30px);
-    height: 28px;
+    transform: translateX(70px);
+    height: 26px;
   }
   
   .nav-items-search li:nth-last-of-type(1) {
@@ -387,16 +387,14 @@
   .nav-items-search li a {
     text-decoration: none;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
-    transform: scale(0.36);
   }
 
     /* Menu */
   
     .nav-items-menu li {
       list-style: none;
-      transform: scale(0.3);
-      transform: translateX(-950px);
-      height: 28px;
+      transform: translateX(-970px);
+      height: 26px;
     }
     
     .nav-items-menu li:nth-last-of-type(1) {
@@ -406,7 +404,6 @@
     .nav-items-menu li a {
       text-decoration: none;
       filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
-      transform: scale(0.36);
     }
   
   /* Hidden Items */
@@ -421,85 +418,70 @@
   }
   
   header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   
   header h1 {
     position: absolute;
-    width: 800px;
-    height: 113px;
-    left: 585px;
     top: 336px;
-    
-    font-family: Roboto;
+    transform: translateX(-395px);
+
+    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
     line-height: 112px; 
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.2em;
     color: #69C0B6;
-    z-index: 1;
+    z-index: 999;
   }
   
   header h2 {
     position: absolute;
-    width: 216px;
-    height: 86px;
-    left: 824px;
     top: 449px;
+    transform: translateX(-110px);
+
     
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 72px;
     line-height: 120%; 
     display: flex;
-    align-items: center;
-    text-align: center;
     color: #69C0B6;
-    z-index: 1;
+    z-index: 999;
   }
   
   header h3 {
     position: absolute;
-    width: 450px;
-    height: 90px;
-    left: 760px;
     top: 562px;
+    transform: translateX(-182px);
     
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
     line-height: 250%;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.6em;
     color: #7C9EEE;
-    z-index: 1;
+    z-index: 999;
   }
   
   header h4 {
     position: absolute;
-    width: 550px;
-    height: 56px;
-    left: 688px;
     top: 886px;
+    transform: translateX(-250px);
     
-    font-family: Roboto;
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
     font-size: 48px;
     line-height: 56px;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.25em;
     color: #000000;
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
@@ -510,90 +492,84 @@
   }
   
   /* Sfondi */
-  
-  .sfondo01 {
+
+  .sfondo01-01 {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 656px;
-    left: 0px;
     top: 149px;
+    transform: translateX(-531px);
     background: #E6EDF3;
-    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
   }
   
   .earth01 {
     position: absolute;
-    left: 652px;
-    top: 192px;
-    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
+    top: 182px;
+    transform: translateX(-300px);
+    filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.25));
   }
   
   .sfondo02-01 {
     position: absolute;
-    width: 536px;
-    height: 507px;
-    left: 948px;
-    top: 1528px;
+    width: 100%;
+    height: 528px;
+    top: 2029px;
+    transform: translateX(-531px);
     background: #D0D6EB;
-    border-radius: 20px;
   }
   
   .sfondo02-02 {
     position: absolute;
-    width: 536px;
-    height: 507px;
-    left: 386px;
-    top: 1528px;
+    width: 100%;
+    height: 528px;
+    top: 1501px;
+    transform: translateX(-531px);
     background: #DBE1F8;
-    border-radius: 20px;
   }
   
   .sfondo02-03 {
     position: absolute;
-    width: 1104px;
+    width: 100%;
     height: 528px;
-    left: 380px;
     top: 973px;
+    transform: translateX(-531px);
     background: #E4E8F7;
-    border-radius: 20px;
   }
   
   .sfondo03-01 {
     position: absolute;
-    width: 536px;
+    width: 100%;
     height: 507px;
-    left: 948px;
-    top: 2689px;
+    top: 3693px;
+    transform: translateX(-531px);
     background: #E8DCCC;
-    border-radius: 20px;
   }
   
   .sfondo03-02 {
     position: absolute;
-    width: 536px;
+    width: 100%;
     height: 507px;
-    left: 386px;
-    top: 2689px;
+    top: 3186px;
+    transform: translateX(-531px);
     background: #F8EAD6;
-    border-radius: 20px;
   }
   
   .sfondo03-03 {
     position: absolute;
-    width: 1104px;
+    width: 100%;
     height: 528px;
-    left: 380px;
-    top: 2134px;
+    top: 2658px;
+    transform: translateX(-531px);
     background: #F7EFE4;
-    border-radius: 20px;
   }
   
   .sfondo-down {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 643px;
-    left: 0px;
-    top: 3357px;
+    top: 4285px;
+    transform: translateX(-531px);
     background: #88848F;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
   }
@@ -603,4 +579,4 @@
   .search-box {
     display: none;
   }
- }
+}
