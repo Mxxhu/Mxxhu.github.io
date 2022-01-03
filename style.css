@@ -62,39 +62,7 @@ nav .desktop-nav li a:hover {
     background-repeat: no-repeat;
 }
 
-.link-search {
-    background: url('./img/search.png');
-    display: block;
-    background-position: center;
-    background-size: 22px;
-    height: 44px;
-    width: 20px;
-    background-repeat: no-repeat;
-}
-
-.link-close {
-    background: url('images/close-icon.svg');
-    display: block;
-    background-position: center;
-    background-size: 17px;
-    height: 44px;
-    width: 20px;
-    background-repeat: no-repeat;
-}
-
-/* Overlay */
-
-.overlay.show {
-    position: fixed;
-    background: rgba(0, 0, 0, 0.48);
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    top: 0;
-    z-index: 100;
-}
-
-/* Desktop Nav Animation */
+/* 导航字体上下移动*/
 
 .desktop-nav li {
     transition: all 400ms ease;
@@ -106,13 +74,7 @@ nav .desktop-nav li a:hover {
     pointer-events: none;
 }
 
-/* Overlay Animation */
-
-.overlay {
-    transition: all 400ms ease;
-}
-
-/* Navigation Menu Items Transition Delay */
+/* 导航字体左右移动 */
 
 .desktop-nav li:nth-of-type(1),
 .desktop-nav.hide li:nth-of-type(10) {
@@ -235,7 +197,7 @@ nav .desktop-nav li a:hover {
         opacity: 1;
     }
 
-    /* Mobile Nav */
+    /* 手机导航 */
 
     nav .mobile-nav {
         display: flex;
@@ -292,13 +254,13 @@ nav .desktop-nav li a:hover {
         transition-duration: 200ms;
     }
 
-    /* Nav Move Up */
+    /* 导航移动上 */
 
     .nav-container nav.move-up {
         margin-top: -40px;
     }
 
-    /* Cancel Button */
+    /* 取消键 */
 
     .mobile-search-container .cancel-btn {
         color: #2997ff;
@@ -319,7 +281,7 @@ nav .desktop-nav li a:hover {
         flex: 1;
     }
 
-    /* Desktop Nav Move Down */
+    /* 导航移动下 */
 
     nav .desktop-nav.move-down li:first-child {
         margin-top: 150px;
@@ -405,32 +367,110 @@ a {
   
   header h4 {
     position: absolute;
-    top: 886px;
-    transform: translateX(-250px);
+    top: 893px;
+    transform: translateX(-190px);
     
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 56px;
     display: flex;
     letter-spacing: 0.25em;
     color: #000000;
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
   }
+
+  header h5 {
+    position: absolute;
+    top: 2940px;
+    transform: translateX(-100px);
+    
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 56px;
+    display: flex;
+    letter-spacing: 0.25em;
+    color: #000000;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  header p {
+    position: absolute;
+    top: 3900px;
+    transform: translateX(-300px);
+    
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+    z-index: 2;
+  }
   
   header a:hover {
     transform: translateY(-8px);
   }
-  
+
+  /* Socials */
+
+  .youtube{
+    position: absolute;
+    top: 3079px;
+    transform: translateX(-325px);
+  }
+
+  .bilibili{
+    position: absolute;
+    top: 3262px;
+    transform: translateX(-325px);
+  }
+
+  .xigua{
+    position: absolute;
+    top: 3469px;
+    transform: translateX(-325px);
+  }
+
+  .instagram{
+    position: absolute;
+    top: 3684px;
+    transform: translateX(-325px);
+  }
+
+  .artstation{
+    position: absolute;
+    top: 3076px;
+    transform: translateX(140px);
+  }
+
+  .linkedin{
+    position: absolute;
+    top: 3271px;
+    transform: translateX(140px);
+  }
+
+  .cgsociety{
+    position: absolute;
+    top: 3496px;
+    transform: translateX(140px);
+  }
+
+  .ggac{
+    position: absolute;
+    top: 3668px;
+    transform: translateX(140px);
+  }
+
   /* Sfondi */
 
   .sfondo01-01 {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 656px;
     top: 149px;
-    transform: translateX(-973px);
     
     background: #E6EDF3;
     mix-blend-mode: normal;
@@ -439,84 +479,77 @@ a {
   
   .earth01 {
     position: absolute;
-    top: 182px;
+    top: 180px;
     transform: translateX(-300px);
     filter: drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.25));
+    z-index: 2;
   }
   
   .sfondo02-01 {
     position: absolute;
-    width: 536px;
-    height: 507px;
-    top: 1528px; 
-    transform: translateX(10px);
+    width: 451.85px;
+    height: 427.4px;
+    top: 1438.87px;
+    transform: translateX(8px);
     background: #D0D6EB;
     border-radius: 20px;
   }
   
   .sfondo02-02 {
     position: absolute;
-    width: 542px;
-    height: 507px;
-    top: 1528px;
-    transform: translateX(-560px);
+    width: 456.91px;
+    height: 427.4px;
+    top: 1438.87px;
+    transform: translateX(-472px);
     background: #DBE1F8;
     border-radius: 20px;
   }
   
   .sfondo02-03 {
     position: absolute;
-    width: 1104px;
-    height: 528px;
-    top: 973px;
-    transform: translateX(-560px);
+    width: 930.68px;
+    height: 445.11px;
+    top: 971px;
+    transform: translateX(-472px);
     background: #E4E8F7;
     border-radius: 20px;
   }
   
   .sfondo03-01 {
     position: absolute;
-    width: 536px;
-    height: 507px;
-    top: 2689px;
-    transform: translateX(10px);
+    width: 451.85px;
+    height: 427.4px;
+    top: 2417.6px;
+    transform: translateX(8px);
     background: #E8DCCC;
     border-radius: 20px;
   }
   
   .sfondo03-02 {
     position: absolute;
-    width: 542px;
-    height: 507px;
-    top: 2689px;
-    transform: translateX(-560px);
+    width: 456.91px;
+    height: 427.4px;
+    top: 2417.6px;
+    transform: translateX(-472px);
     background: #F8EAD6;
     border-radius: 20px;
   }
   
   .sfondo03-03 {
     position: absolute;
-    width: 1104px;
-    height: 528px;
-    top: 2134px;
-    transform: translateX(-560px);
+    width: 930.68px;
+    height: 445.11px;
+    top: 1949.73px;
+    transform: translateX(-472px);
     background: #F7EFE4;
     border-radius: 20px;
   }
   
   .sfondo-down {
     position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 643px;
-    top: 3357px;
-    transform: translateX(-973px);
+    top: 3833px;
     background: #88848F;
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
   }
-  
-  /* Search box */
-  
-  .search-box {
-    display: none;
-  }
-
