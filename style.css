@@ -4,12 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Ro", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     overflow-y: scroll;
+}
+
+ul {
+  list-style: none;
 }
 
 /* 桌面导航 */
@@ -258,7 +263,7 @@ a {
     top: 336px;
     transform: translateX(-395px);
 
-    font-family: "Roboto";
+    font-family: "Roboto"sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
@@ -273,9 +278,8 @@ a {
     position: absolute;
     top: 449px;
     transform: translateX(-110px);
-
     
-    font-family: "Roboto";
+    font-family: "Roboto"sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 72px;
@@ -290,7 +294,7 @@ a {
     top: 562px;
     transform: translateX(-182px);
     
-    font-family: "Roboto";
+    font-family: "Roboto"sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -306,7 +310,7 @@ a {
     top: 893px;
     transform: translateX(-190px);
     
-    font-family: "Roboto";
+    font-family: "Roboto"sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -322,7 +326,7 @@ a {
     top: 2940px;
     transform: translateX(-100px);
     
-    font-family: "Roboto";
+    font-family: "Roboto"sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -338,7 +342,7 @@ a {
     top: 3900px;
     transform: translateX(-300px);
     
-    font-family: "Roboto";
+    font-family: "Roboto"sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
@@ -356,48 +360,56 @@ a {
     position: absolute;
     top: 3079px;
     transform: translateX(-325px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   .bilibili{
     position: absolute;
     top: 3262px;
     transform: translateX(-325px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   .xigua{
     position: absolute;
     top: 3469px;
     transform: translateX(-325px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   .instagram{
     position: absolute;
     top: 3684px;
     transform: translateX(-325px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   .artstation{
     position: absolute;
     top: 3076px;
     transform: translateX(140px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   .linkedin{
     position: absolute;
     top: 3271px;
     transform: translateX(140px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   .cgsociety{
     position: absolute;
     top: 3496px;
     transform: translateX(140px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   .ggac{
     position: absolute;
     top: 3668px;
     transform: translateX(140px);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
   }
 
   /* Sfondi */
