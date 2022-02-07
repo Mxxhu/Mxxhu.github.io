@@ -1,136 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matteo Hu</title>
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style.css">  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matteo Hu</title>
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
 
-    <style>
+  <style>
+    .flex {
+      display: flex;
+    }
 
-      .flex {
-        display: flex;
-      }
+    .flex-wrap {
+      flex-wrap: wrap;
+    }
 
-      .flex-wrap {
-        flex-wrap: wrap;
-      }
+    .flex-aligh-items {
+      align-items: center;
+    }
 
-      .flex-aligh-items {
-        align-items: center;
-      }
+    .flex-justify-content {
+      justify-content: center;
+    }
 
-      .flex-justify-content {
-        justify-content: center;
-      }
+    .flex-item-shrink {
+      flex-shrink: 0;
+    }
+  </style>
 
-      .flex-item-shrink{
-        flex-shrink: 0;
-      }
+</head>
 
-    </style>
+<body>
 
-  </head>
-  <body>
- 
-    <div class="nav-container">
-      <nav>
+  <div class="nav-container">
+    <nav>
 
-              <!-- 手机导航 -->
+      <!-- 手机导航 -->
 
-          <ul class="mobile-nav">
-              <li>
-                <a href="#" class="link-logo"></a>
-            </li>
-            <li>
-                <div class="menu-icon-container">
-                    <div class="menu-icon">
-                        <span class="line-1"></span>
-                        <span class="line-2"></span>
-                    </div>
-                </div>
-              </li>
+      <ul class="mobile-nav">
+        <li>
+          <a href="#" class="link-logo"></a>
+        </li>
+        <li>
+          <div class="menu-icon-container">
+            <div class="menu-icon">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+            </div>
+          </div>
+        </li>
 
-          </ul>
+      </ul>
 
-                <!-- 电脑导航 -->
+      <!-- 电脑导航 -->
 
-          <ul class="desktop-nav">
-              <li>
-                  <a href="#" class="link-logo"></a>
-              </li>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                  <a href="#">Resume</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                  <a href="#">Works</a>
-              </li>
-              <li>
-                  <a href="#">Photos</a>
-              </li>
-              <li>
-                  <a href="#">Videos</a>
-              </li>
-              <li>
-                  <a href="#scroll_socials">Socials</a>
-              </li>
-          </ul>
-      </nav>
+      <ul class="desktop-nav">
+        <li>
+          <a href="#" class="link-logo"></a>
+        </li>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Resume</a>
+        </li>
+        <li>
+          <a href="#scroll-about">About</a>
+        </li>
+        <li>
+          <a href="#scroll-works">Works</a>
+        </li>
+        <li>
+          <a href="#">Photos</a>
+        </li>
+        <li>
+          <a href="#">Videos</a>
+        </li>
+        <li>
+          <a href="#scroll-socials">Socials</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 
-  <div class="sfondo01">
-    <img src="img/earth01.png" alt="" class="earth01">
+        <!-- 横幅名字 -->
 
-    <div class="hero-content">
-      <h1>HUMATTEO</h1>
+  <div class="sfondo01">
+    <div class="about-content">
+      <h1>HU MATTEO</h1>
       <h2>胡思成</h2>
       <h3>3D ARTIST</h3>
     </div>
   </div>
 
-  <div class="text-title">
-    <div class="text-works">
-      <h1>WORKS</h1>
-    </div>
+        <!-- WORKS 字样 -->
 
-    <div class="text-socials">
-      <h2 id="scroll_socials">SOCIALS</h2>
-    </div>
+  <div class="title-works">
+    <h1 id="scroll-works">WORKS</h1>
   </div>
 
+       <!-- WORKS 内容 -->
 
   <div class="sfondi flex flex-aligh-items flex-justify-content lex-wrap">
-    <div class="wrapper-sfondi">
-      <div class="sfondi-home">
-      
-        <div class="sfondo01">
-
-        </div>    
-
         <div class="sfondo02">
           <div class="sfondo02-01"></div>
           <div class="sfondo02-02"></div>
           <div class="sfondo02-03"></div>
-        </div>  
+        </div>
 
         <div class="sfondo03">
           <div class="sfondo03-01"></div>
           <div class="sfondo03-02"></div>
           <div class="sfondo03-03"></div>
         </div>
-
-      </div>
-    </div>
   </div>
 
+       <!-- SOCIALS 字样 -->
+
+  <div class="title-socials">
+    <h1 id="scroll-socials">SOCIALS</h1>
+  </div>
+
+         <!-- SOCIALS 内容 -->
+
+  <div class="links-container flex flex-aligh-items flex-justify-content lex-wrap">
+    <ul class="social-items">
+
+      <li class="youtube">
+        <a href="https://www.youtube.com/c/Mxxhu" target="_blank" rel="noopener noreferrer"><img src="./img/YouTube.png"
+            alt="">
+        </a>
+      </li>
+      <li class="bilibili">
+        <a href="https://m.bilibili.com/space/267034242" target="_blank" rel="noopener noreferrer"><img
+            src="./img/Bilibili.png" alt="">
+        </a>
+      </li>
+      <li class="xigua">
+        <a href="https://www.ixigua.com/home/1204698386006992" target="_blank" rel="noopener noreferrer"><img
+            src="./img/xiguashiping.png" alt="">
+        </a>
+      </li>
+      <li class="instagram">
+        <a href="https://www.instagram.com/matteo_hu85/" target="_blank" rel="noopener noreferrer"><img
+            src="./img/Instagram.png" alt="">
+        </a>
+      </li>
+      <li class="artstation">
+        <a href="https://matteo_hu.artstation.com/" target="_blank" rel="noopener noreferrer"><img
+            src="./img/ArtStation.png" alt="">
+        </a>
+      </li>
+      <li class="linkedin">
+        <a href="#" target="_blank" rel="noopener noreferrer"><img src="./img/LinkedIn.png" alt="">
+        </a>
+      </li>
+      <li class="cgsociety">
+        <a href="https://mxxhu.cgsociety.org/" target="_blank" rel="noopener noreferrer"><img src="./img/CGSociety.png"
+            alt="">
+        </a>
+      </li>
+      <li class="ggac">
+        <a href="https://www.ggac.com/v2/user/center/home/292737" target="_blank" rel="noopener noreferrer"><img
+            src="./img/ggac.png" alt="">
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+         <!-- 横幅底 -->
+  
   <div class="sfondo-down">
     <p>
       © 2022 | Created By <b>Matteo Hu</b> under the <b>GNU GPLv3</b> .
@@ -138,54 +181,8 @@
     </p>
   </div>
 
-  <div class="links-container flex flex-aligh-items flex-justify-content lex-wrap">
-    <ul class="social-items">
-
-      <li class="youtube">
-        <a
-         href="https://www.youtube.com/c/Mxxhu"target="_blank" rel="noopener noreferrer"><img src="./img/YouTube.png" alt="">
-        </a>
-      </li>
-      <li class="bilibili">
-        <a
-         href="https://m.bilibili.com/space/267034242"target="_blank" rel="noopener noreferrer"><img src="./img/Bilibili.png" alt="">
-        </a>
-      </li>
-      <li class="xigua">
-        <a
-         href="https://www.ixigua.com/home/1204698386006992"target="_blank" rel="noopener noreferrer"><img src="./img/xiguashiping.png" alt="">
-        </a>
-      </li>
-      <li class="instagram">
-        <a
-         href="https://www.instagram.com/matteo_hu85/"target="_blank" rel="noopener noreferrer"><img src="./img/Instagram.png" alt="">
-        </a>
-      </li>
-      <li class="artstation">
-        <a
-         href="https://matteo_hu.artstation.com/"target="_blank" rel="noopener noreferrer"><img src="./img/ArtStation.png" alt="">
-        </a>
-      </li>
-      <li class="linkedin">
-        <a
-         href="#"target="_blank" rel="noopener noreferrer"><img src="./img/LinkedIn.png" alt="">
-        </a>
-      </li>
-      <li class="cgsociety">
-        <a
-         href="https://mxxhu.cgsociety.org/"target="_blank" rel="noopener noreferrer"><img src="./img/CGSociety.png" alt="">
-        </a>
-      </li>
-      <li class="ggac">
-        <a
-         href="https://www.ggac.com/v2/user/center/home/292737"target="_blank" rel="noopener noreferrer"><img src="./img/ggac.png" alt="">
-        </a>
-      </li>
-
-    </ul>
-  </div>
-
   <script src="main.js"></script>
 
 </body>
+
 </html>
