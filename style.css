@@ -332,37 +332,36 @@ a {
 
   /* Socials */
 
-  .youtube{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+}
 
-  .bilibili{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
+.links-container div {
+  padding: 0 150px;
+}
 
-  .xigua{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
+.links-container01 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
 
-  .instagram{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
+.links-container02 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
 
-  .artstation{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
-
-  .linkedin{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
-
-  .cgsociety{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
-
-  .ggac{
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
-  }
+.links-container01 li,
+.links-container02 li {
+  padding: 50px 0;
+}
 
   /* Sfondi */
 
@@ -395,8 +394,4 @@ a {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-    }
-
-    .danyaoxiang-01 {
-
     }
