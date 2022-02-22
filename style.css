@@ -287,7 +287,7 @@ a {
     line-height: 42px;
     letter-spacing: 0.25em;
     color: #000000;
-    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
   }
 
   .title-socials h1 {
@@ -298,14 +298,14 @@ a {
     line-height: 42px;
     letter-spacing: 0.25em;
     color: #000000;
-    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
   }
 
   .sfondo-down p { 
     font-family: "Roboto"sans-serif;
     font-style: normal;
     font-size: 20px;
-    color: #000000;
+    color: rgb(187, 189, 190);
     z-index: 2;
   }
   
@@ -384,7 +384,7 @@ a {
     width: 100%;
     padding: 50px 0;
     top: 3833px;
-    background: #88848F;
+    background: rgba(8, 14, 20, 0.85);
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
   }
 
